@@ -1,0 +1,1 @@
+Uma calculadora em Delphi 6 projetada para aplicação de estudos de boas práticas para nomenclaturas, criação de variáveis, units, etc.
