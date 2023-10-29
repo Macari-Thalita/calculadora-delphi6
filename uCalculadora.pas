@@ -189,14 +189,20 @@ begin
    else if(GTipoOperacao = 'sub') then
    begin
       AtribuiNum2;
+      GResultadoFinal     := GNum1 - GNum2;
+      lbResultado.Caption := FloatToStr(GResultadoFinal);      
    end
    else if(GTipoOperacao = 'mult') then
    begin
       AtribuiNum2;
+      GResultadoFinal     := GNum1 * GNum2;
+      lbResultado.Caption := FloatToStr(GResultadoFinal);
    end
    else if(GTipoOperacao = 'div') then
    begin
       AtribuiNum2;
+      GResultadoFinal     := GNum1 / GNum2;
+      lbResultado.Caption := FloatToStr(GResultadoFinal);      
    end;
 end;
 
