@@ -3,6 +3,7 @@ object frmCalculadora: TfrmCalculadora
   Top = 309
   Width = 325
   Height = 460
+  Caption = 'Calculadora'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,7 +20,7 @@ object frmCalculadora: TfrmCalculadora
     Width = 297
     Height = 81
     TabOrder = 0
-    object lbNum1: TLabel
+    object lbNumero1: TLabel
       Left = 34
       Top = 45
       Width = 23
@@ -45,7 +46,7 @@ object frmCalculadora: TfrmCalculadora
       Font.Style = []
       ParentFont = False
     end
-    object lbNum2: TLabel
+    object lbNumero2: TLabel
       Left = 98
       Top = 45
       Width = 27
@@ -173,7 +174,7 @@ object frmCalculadora: TfrmCalculadora
     TabOrder = 17
     OnClick = btIgualClick
   end
-  object btNum7: TButton
+  object btNumero7: TButton
     Left = 11
     Top = 148
     Width = 65
@@ -186,9 +187,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 4
-    OnClick = btNum7Click
+    OnClick = btNumero7Click
   end
-  object btNum8: TButton
+  object btNumero8: TButton
     Left = 92
     Top = 148
     Width = 65
@@ -201,9 +202,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 5
-    OnClick = btNum8Click
+    OnClick = btNumero8Click
   end
-  object btNum9: TButton
+  object btNumero9: TButton
     Left = 172
     Top = 148
     Width = 65
@@ -216,9 +217,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 6
-    OnClick = btNum9Click
+    OnClick = btNumero9Click
   end
-  object btNum4: TButton
+  object btNumero4: TButton
     Left = 11
     Top = 220
     Width = 65
@@ -231,9 +232,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 8
-    OnClick = btNum4Click
+    OnClick = btNumero4Click
   end
-  object btNum5: TButton
+  object btNumero5: TButton
     Left = 92
     Top = 220
     Width = 65
@@ -246,9 +247,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 9
-    OnClick = btNum5Click
+    OnClick = btNumero5Click
   end
-  object btNum6: TButton
+  object btNumero6: TButton
     Left = 172
     Top = 220
     Width = 65
@@ -261,9 +262,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 10
-    OnClick = btNum6Click
+    OnClick = btNumero6Click
   end
-  object btNum1: TButton
+  object btNumero1: TButton
     Left = 11
     Top = 292
     Width = 65
@@ -276,9 +277,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 12
-    OnClick = btNum1Click
+    OnClick = btNumero1Click
   end
-  object btNum2: TButton
+  object btNumero2: TButton
     Left = 92
     Top = 292
     Width = 65
@@ -291,9 +292,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 13
-    OnClick = btNum2Click
+    OnClick = btNumero2Click
   end
-  object btNum3: TButton
+  object btNumero3: TButton
     Left = 172
     Top = 292
     Width = 65
@@ -306,9 +307,9 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 14
-    OnClick = btNum3Click
+    OnClick = btNumero3Click
   end
-  object btNum0: TButton
+  object btNumero0: TButton
     Left = 92
     Top = 356
     Width = 65
@@ -321,7 +322,7 @@ object frmCalculadora: TfrmCalculadora
     Font.Style = []
     ParentFont = False
     TabOrder = 16
-    OnClick = btNum0Click
+    OnClick = btNumero0Click
   end
   object btCorrigir: TButton
     Left = 136
